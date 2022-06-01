@@ -1,0 +1,8 @@
+.my-card {
+    padding: 2rem 0;
+}
+
+#team-container img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
