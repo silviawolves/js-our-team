@@ -3,6 +3,13 @@
 
 
 
+
+
+
+
+
+
+
 /*
 Per la pagina ‘Chi siamo’ del nostro sito aziendale, dobbiamo sviluppare la sezione “Il nostro team”.
 Definiamo un array di oggetti che rappresentano i membri del team.
