@@ -1,8 +1,29 @@
-.my-card {
-    padding: 2rem 0;
+main {
+    background-color: #f5f5f1;
+    font-family: 'Catamaran', sans-serif;
 }
 
 #team-container img {
     width: 100%;
     aspect-ratio: 1/1;
+}
+
+.my-card {
+    padding: 1.5rem 0;
+    flex-basis: calc(100% / 3);
+}
+
+.my-card-image {
+    overflow: hidden;
+}
+
+.my-card-text {
+    background-color: white;
+    padding: 1rem;
+    opacity: 75%;
+}
+
+.my-card-text h5 {
+    font-family: 'Vidaloka', serif;
+    margin-bottom: 0;
 }

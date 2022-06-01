@@ -42,15 +42,22 @@ for (let i = 0; i < membriTeam.length; i++) {
     const membroSingolo = membriTeam[i]
     console.log(membroSingolo.nome, membroSingolo.ruolo, membroSingolo.foto)
 
+    //creo le col
     const colTeam = document.createElement('div')
     teamContainer.append(colTeam)
     colTeam.classList.add('col-4')
+
+    //creo le card da mettere nelle col
     const card = document.createElement('div')
     colTeam.append(card)
     card.classList.add('my-card')
-    card.innerHTML = `  <img src="${membroSingolo.foto}">
-                        <div>${membroSingolo.nome}</div>
-                        <div>${membroSingolo.ruolo}</div>
+
+    //inserisco gli oggetti nell'html
+    card.innerHTML = `  <img class="my-card-image" src="${membroSingolo.foto}">
+                        <div class="my-card-text">
+                            <h5>${membroSingolo.nome}</h5>
+                            <div class="small">${membroSingolo.ruolo}</div>
+                        <div>
                     `
 }
 
@@ -68,5 +75,5 @@ Milestone 2:
 X stampare i dati all’interno di un contenitore nella pagina html in modo dinamico, creando per ciascun membro del team un elemento html che conterrà i suoi dati.
 
 BONUS:
-stilizziamo la sezione realizzando le card di ciascun membro del team, come nel mockup allegato.
+X stilizziamo la sezione realizzando le card di ciascun membro del team, come nel mockup allegato.
 */
