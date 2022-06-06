@@ -40,7 +40,7 @@ const membriTeam = [
 //ciclo nell'array per stampare i dettagli di ogni membro in console
 for (let i = 0; i < membriTeam.length; i++) {
     const membroSingolo = membriTeam[i]
-    console.log(membroSingolo.nome, membroSingolo.ruolo, membroSingolo.foto)
+    console.log(`Nome: ${membroSingolo.nome}, Ruolo: ${membroSingolo.ruolo}`)
 
     //creo le col
     const colTeam = document.createElement('div')
